@@ -1,0 +1,445 @@
+2025-09-28 10:04:02,429 - ERROR - Error loading state: Expecting value: line 1 column 1 (char 0)
+2025-09-28 10:04:02,429 - INFO - Files initialized successfully
+2025-09-28 10:04:02,835 - INFO - Bot commands set successfully
+2025-09-28 10:04:02,851 - INFO - State saved successfully
+2025-09-28 10:04:09,068 - INFO - State saved successfully
+2025-09-28 10:04:09,069 - INFO - State saved successfully
+2025-09-28 10:04:19,633 - INFO - State saved successfully
+2025-09-28 10:04:33,556 - INFO - State saved successfully
+2025-09-28 10:04:39,822 - INFO - State saved successfully
+2025-09-28 10:04:43,274 - INFO - Sent question 0 to user 7205513397, message_id: 1532
+2025-09-28 10:04:43,274 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:43,274 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:49,115 - INFO - Received callback: ans_7205513397_0_B
+2025-09-28 10:04:49,559 - INFO - Sent question 1 to user 7205513397, message_id: 1534
+2025-09-28 10:04:49,561 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:49,707 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:50,815 - INFO - Received callback: ans_7205513397_1_B
+2025-09-28 10:04:51,489 - INFO - Sent question 2 to user 7205513397, message_id: 1536
+2025-09-28 10:04:51,489 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:51,625 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:52,734 - INFO - Received callback: ans_7205513397_2_A
+2025-09-28 10:04:53,191 - INFO - Sent question 3 to user 7205513397, message_id: 1538
+2025-09-28 10:04:53,192 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:04:53,329 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:02,854 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:04,348 - INFO - Received callback: ans_7205513397_3_A
+2025-09-28 10:05:04,819 - INFO - Sent question 4 to user 7205513397, message_id: 1540
+2025-09-28 10:05:04,820 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:04,946 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:05,704 - INFO - Received callback: ans_7205513397_4_D
+2025-09-28 10:05:06,157 - INFO - Sent question 5 to user 7205513397, message_id: 1542
+2025-09-28 10:05:06,158 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:06,285 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:07,349 - INFO - Received callback: ans_7205513397_5_A
+2025-09-28 10:05:07,816 - INFO - Sent question 6 to user 7205513397, message_id: 1544
+2025-09-28 10:05:07,817 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:07,945 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:08,786 - INFO - Received callback: ans_7205513397_6_B
+2025-09-28 10:05:09,236 - INFO - Sent question 7 to user 7205513397, message_id: 1546
+2025-09-28 10:05:09,237 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:09,364 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:09,772 - INFO - Received callback: ans_7205513397_7_C
+2025-09-28 10:05:10,235 - INFO - Sent question 8 to user 7205513397, message_id: 1548
+2025-09-28 10:05:10,236 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:10,378 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:11,568 - INFO - Received callback: ans_7205513397_8_B
+2025-09-28 10:05:12,045 - INFO - Sent question 9 to user 7205513397, message_id: 1550
+2025-09-28 10:05:12,046 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:12,169 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:12,819 - INFO - Received callback: ans_7205513397_9_A
+2025-09-28 10:05:13,262 - INFO - Sent question 10 to user 7205513397, message_id: 1552
+2025-09-28 10:05:13,263 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:13,399 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:14,264 - INFO - Received callback: ans_7205513397_10_C
+2025-09-28 10:05:14,906 - INFO - Sent question 11 to user 7205513397, message_id: 1554
+2025-09-28 10:05:14,906 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:15,136 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:15,454 - INFO - Received callback: ans_7205513397_11_D
+2025-09-28 10:05:15,966 - INFO - Sent question 12 to user 7205513397, message_id: 1556
+2025-09-28 10:05:15,967 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:16,092 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:16,713 - INFO - Received callback: ans_7205513397_12_C
+2025-09-28 10:05:17,159 - INFO - Sent question 13 to user 7205513397, message_id: 1558
+2025-09-28 10:05:17,160 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:17,287 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:17,695 - INFO - Received callback: ans_7205513397_13_D
+2025-09-28 10:05:18,150 - INFO - Sent question 14 to user 7205513397, message_id: 1560
+2025-09-28 10:05:18,151 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:18,273 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:19,230 - INFO - Received callback: ans_7205513397_14_A
+2025-09-28 10:05:19,703 - INFO - Sent question 15 to user 7205513397, message_id: 1562
+2025-09-28 10:05:19,704 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:19,834 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:20,169 - INFO - Received callback: ans_7205513397_15_C
+2025-09-28 10:05:20,650 - INFO - Sent question 16 to user 7205513397, message_id: 1564
+2025-09-28 10:05:20,651 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:20,773 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:21,257 - INFO - Received callback: ans_7205513397_16_B
+2025-09-28 10:05:21,737 - INFO - Sent question 17 to user 7205513397, message_id: 1566
+2025-09-28 10:05:21,738 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:21,865 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:22,368 - INFO - Received callback: ans_7205513397_17_A
+2025-09-28 10:05:22,863 - INFO - Sent question 18 to user 7205513397, message_id: 1568
+2025-09-28 10:05:22,864 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:22,988 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:23,344 - INFO - Received callback: ans_7205513397_18_C
+2025-09-28 10:05:23,809 - INFO - Sent question 19 to user 7205513397, message_id: 1570
+2025-09-28 10:05:23,810 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:23,943 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:24,302 - INFO - Received callback: ans_7205513397_19_D
+2025-09-28 10:05:24,774 - INFO - Sent question 20 to user 7205513397, message_id: 1572
+2025-09-28 10:05:24,775 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:24,896 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:33,411 - INFO - Received callback: ans_7205513397_20_C
+2025-09-28 10:05:34,028 - INFO - Sent question 21 to user 7205513397, message_id: 1574
+2025-09-28 10:05:34,029 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:34,174 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:34,552 - INFO - Received callback: ans_7205513397_21_C
+2025-09-28 10:05:35,270 - INFO - Sent question 22 to user 7205513397, message_id: 1576
+2025-09-28 10:05:35,270 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:35,520 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:35,777 - INFO - Received callback: ans_7205513397_22_C
+2025-09-28 10:05:36,461 - INFO - Sent question 23 to user 7205513397, message_id: 1578
+2025-09-28 10:05:36,463 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:36,622 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:36,987 - INFO - Received callback: ans_7205513397_23_C
+2025-09-28 10:05:37,519 - INFO - Sent question 24 to user 7205513397, message_id: 1580
+2025-09-28 10:05:37,520 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:37,648 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:38,070 - INFO - Received callback: ans_7205513397_24_C
+2025-09-28 10:05:38,559 - INFO - Sent question 25 to user 7205513397, message_id: 1582
+2025-09-28 10:05:38,560 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:38,684 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:39,239 - INFO - Received callback: ans_7205513397_25_C
+2025-09-28 10:05:40,024 - INFO - Sent question 26 to user 7205513397, message_id: 1584
+2025-09-28 10:05:40,025 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:40,149 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:40,599 - INFO - Received callback: ans_7205513397_26_C
+2025-09-28 10:05:41,086 - INFO - Sent question 27 to user 7205513397, message_id: 1586
+2025-09-28 10:05:41,087 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:41,218 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:41,700 - INFO - Received callback: ans_7205513397_27_C
+2025-09-28 10:05:42,169 - INFO - Sent question 28 to user 7205513397, message_id: 1588
+2025-09-28 10:05:42,170 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:42,292 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:42,840 - INFO - Received callback: ans_7205513397_28_C
+2025-09-28 10:05:43,373 - INFO - Sent question 29 to user 7205513397, message_id: 1590
+2025-09-28 10:05:43,374 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:43,502 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:43,936 - INFO - Received callback: ans_7205513397_29_C
+2025-09-28 10:05:44,477 - INFO - Sent question 30 to user 7205513397, message_id: 1592
+2025-09-28 10:05:44,479 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:44,601 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:45,106 - INFO - Received callback: ans_7205513397_30_C
+2025-09-28 10:05:45,573 - INFO - Sent question 31 to user 7205513397, message_id: 1594
+2025-09-28 10:05:45,574 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:45,701 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:46,302 - INFO - Received callback: ans_7205513397_31_C
+2025-09-28 10:05:46,880 - INFO - Sent question 32 to user 7205513397, message_id: 1596
+2025-09-28 10:05:46,881 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:47,003 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:47,404 - INFO - Received callback: ans_7205513397_32_C
+2025-09-28 10:05:48,039 - INFO - Sent question 33 to user 7205513397, message_id: 1598
+2025-09-28 10:05:48,040 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:48,169 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:05:48,572 - INFO - Received callback: ans_7205513397_33_C
+2025-09-28 10:05:48,852 - INFO - Backup created: backups\test_results.xlsx.backup_20250928_100548
+2025-09-28 10:05:48,879 - INFO - Results saved for user 7205513397
+2025-09-28 10:05:49,009 - ERROR - Error removing inline keyboard for message 1532 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,134 - ERROR - Error removing inline keyboard for message 1534 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,263 - ERROR - Error removing inline keyboard for message 1536 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,388 - ERROR - Error removing inline keyboard for message 1538 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,513 - ERROR - Error removing inline keyboard for message 1540 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,633 - ERROR - Error removing inline keyboard for message 1542 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:49,766 - ERROR - Error removing inline keyboard for message 1544 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,174 - ERROR - Error removing inline keyboard for message 1546 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,311 - ERROR - Error removing inline keyboard for message 1548 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,432 - ERROR - Error removing inline keyboard for message 1550 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,553 - ERROR - Error removing inline keyboard for message 1552 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,676 - ERROR - Error removing inline keyboard for message 1554 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,786 - ERROR - Error removing inline keyboard for message 1556 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:50,911 - ERROR - Error removing inline keyboard for message 1558 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,039 - ERROR - Error removing inline keyboard for message 1560 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,167 - ERROR - Error removing inline keyboard for message 1562 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,288 - ERROR - Error removing inline keyboard for message 1564 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,415 - ERROR - Error removing inline keyboard for message 1566 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,539 - ERROR - Error removing inline keyboard for message 1568 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,648 - ERROR - Error removing inline keyboard for message 1570 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,794 - ERROR - Error removing inline keyboard for message 1572 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:51,910 - ERROR - Error removing inline keyboard for message 1574 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,037 - ERROR - Error removing inline keyboard for message 1576 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,150 - ERROR - Error removing inline keyboard for message 1578 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,298 - ERROR - Error removing inline keyboard for message 1580 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,421 - ERROR - Error removing inline keyboard for message 1582 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,571 - ERROR - Error removing inline keyboard for message 1584 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,693 - ERROR - Error removing inline keyboard for message 1586 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,817 - ERROR - Error removing inline keyboard for message 1588 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:52,928 - ERROR - Error removing inline keyboard for message 1590 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:53,071 - ERROR - Error removing inline keyboard for message 1592 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:53,199 - ERROR - Error removing inline keyboard for message 1594 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:53,328 - ERROR - Error removing inline keyboard for message 1596 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:53,450 - ERROR - Error removing inline keyboard for message 1598 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:05:53,585 - INFO - Test ended for user 7205513397, score: 36
+2025-09-28 10:05:53,587 - INFO - State saved successfully
+2025-09-28 10:05:53,717 - INFO - State saved successfully
+2025-09-28 10:06:00,964 - INFO - State saved successfully
+2025-09-28 10:06:00,965 - INFO - State saved successfully
+2025-09-28 10:06:02,869 - INFO - State saved successfully
+2025-09-28 10:06:05,462 - INFO - State saved successfully
+2025-09-28 10:06:19,931 - INFO - State saved successfully
+2025-09-28 10:07:02,882 - INFO - State saved successfully
+2025-09-28 10:08:02,890 - INFO - State saved successfully
+2025-09-28 10:09:02,882 - INFO - State saved successfully
+2025-09-28 10:10:02,894 - INFO - State saved successfully
+2025-09-28 10:11:02,906 - INFO - State saved successfully
+2025-09-28 10:11:41,499 - INFO - Asked password for restart_test from user 7205513397
+2025-09-28 10:11:41,505 - INFO - State saved successfully
+2025-09-28 10:11:55,034 - INFO - Deleted password message 1616 for user 7205513397
+2025-09-28 10:11:55,362 - ERROR - Error deleting password message 1616 for user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+2025-09-28 10:11:55,526 - INFO - State saved successfully
+2025-09-28 10:11:55,527 - INFO - State saved successfully
+2025-09-28 10:12:02,922 - INFO - State saved successfully
+2025-09-28 10:13:02,930 - INFO - State saved successfully
+2025-09-28 10:13:13,525 - INFO - Files initialized successfully
+2025-09-28 10:13:13,924 - INFO - Bot commands set successfully
+2025-09-28 10:13:13,924 - INFO - State saved successfully
+2025-09-28 10:13:19,138 - INFO - State saved successfully
+2025-09-28 10:13:19,139 - INFO - State saved successfully
+2025-09-28 10:13:22,103 - INFO - State saved successfully
+2025-09-28 10:13:26,432 - INFO - Asked password for restart_test from user 7205513397
+2025-09-28 10:13:26,434 - INFO - State saved successfully
+2025-09-28 10:13:35,411 - INFO - Deleted password message 1630 for user 7205513397
+2025-09-28 10:13:35,675 - ERROR - Error deleting password message 1630 for user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message to delete not found
+2025-09-28 10:13:35,820 - INFO - State saved successfully
+2025-09-28 10:13:35,822 - INFO - State saved successfully
+2025-09-28 10:14:13,929 - INFO - State saved successfully
+2025-09-28 10:15:13,967 - INFO - State saved successfully
+2025-09-28 10:15:34,013 - ERROR - Infinity polling: polling exited
+2025-09-28 10:15:34,013 - ERROR - Break infinity polling
+2025-09-28 10:15:34,829 - ERROR - Infinity polling: polling exited
+2025-09-28 10:15:34,829 - ERROR - Break infinity polling
+2025-09-28 10:15:37,065 - INFO - Files initialized successfully
+2025-09-28 10:15:37,569 - INFO - Bot commands set successfully
+2025-09-28 10:15:37,571 - INFO - State saved successfully
+2025-09-28 10:15:41,603 - INFO - Asked password for restart_test from user 7205513397
+2025-09-28 10:15:41,603 - INFO - State saved successfully
+2025-09-28 10:15:45,931 - INFO - Deleted password message 1635 for user 7205513397
+2025-09-28 10:15:45,933 - INFO - Backup created: backups\users.txt.backup_20250928_101545
+2025-09-28 10:15:45,951 - INFO - Backup created: backups\test_results.xlsx.backup_20250928_101545
+2025-09-28 10:15:45,979 - INFO - Deleted 2 rows for user_id 7205513397 from test_results.xlsx
+2025-09-28 10:15:46,158 - INFO - State saved successfully
+2025-09-28 10:15:48,511 - INFO - State saved successfully
+2025-09-28 10:16:24,481 - ERROR - Error loading state: Expecting value: line 1 column 1 (char 0)
+2025-09-28 10:16:24,481 - INFO - Files initialized successfully
+2025-09-28 10:16:24,887 - INFO - Bot commands set successfully
+2025-09-28 10:16:24,888 - INFO - State saved successfully
+2025-09-28 10:17:24,881 - INFO - State saved successfully
+2025-09-28 10:17:43,430 - INFO - Files initialized successfully
+2025-09-28 10:17:43,841 - INFO - Bot commands set successfully
+2025-09-28 10:17:43,841 - INFO - State saved successfully
+2025-09-28 10:18:43,847 - INFO - State saved successfully
+2025-09-28 10:18:53,792 - ERROR - Infinity polling: polling exited
+2025-09-28 10:18:53,792 - ERROR - Break infinity polling
+2025-09-28 10:18:58,080 - INFO - Files initialized successfully
+2025-09-28 10:18:58,438 - INFO - Bot commands set successfully
+2025-09-28 10:18:58,446 - INFO - State saved successfully
+2025-09-28 10:19:58,448 - INFO - State saved successfully
+2025-09-28 10:20:58,460 - INFO - State saved successfully
+2025-09-28 10:21:58,464 - INFO - State saved successfully
+2025-09-28 10:22:57,953 - ERROR - Infinity polling: polling exited
+2025-09-28 10:22:57,955 - ERROR - Break infinity polling
+2025-09-28 10:22:58,483 - INFO - State saved successfully
+2025-09-28 10:23:02,722 - INFO - Files initialized successfully
+2025-09-28 10:23:03,196 - INFO - Bot commands set successfully
+2025-09-28 10:23:03,199 - INFO - State saved successfully
+2025-09-28 10:23:28,377 - INFO - State saved successfully
+2025-09-28 10:23:28,378 - INFO - State saved successfully
+2025-09-28 10:23:30,396 - INFO - State saved successfully
+2025-09-28 10:23:31,446 - INFO - State saved successfully
+2025-09-28 10:23:34,888 - INFO - State saved successfully
+2025-09-28 10:23:38,869 - INFO - Sent question 0 to user 7205513397, message_id: 1667
+2025-09-28 10:23:38,870 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:38,871 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:40,464 - INFO - Received callback: ans_7205513397_0_B
+2025-09-28 10:23:40,884 - INFO - Sent question 1 to user 7205513397, message_id: 1669
+2025-09-28 10:23:40,885 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:41,013 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:41,458 - INFO - Received callback: ans_7205513397_1_B
+2025-09-28 10:23:42,337 - INFO - Sent question 2 to user 7205513397, message_id: 1671
+2025-09-28 10:23:42,338 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:42,399 - INFO - Received callback: ans_7205513397_2_B
+2025-09-28 10:23:42,466 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:43,099 - INFO - Sent question 3 to user 7205513397, message_id: 1673
+2025-09-28 10:23:43,100 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:43,236 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:43,717 - INFO - Received callback: ans_7205513397_3_B
+2025-09-28 10:23:44,148 - INFO - Sent question 4 to user 7205513397, message_id: 1675
+2025-09-28 10:23:44,148 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:44,268 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:44,693 - INFO - Received callback: ans_7205513397_4_B
+2025-09-28 10:23:45,166 - INFO - Sent question 5 to user 7205513397, message_id: 1677
+2025-09-28 10:23:45,166 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:45,346 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:45,795 - INFO - Received callback: ans_7205513397_5_D
+2025-09-28 10:23:46,242 - INFO - Sent question 6 to user 7205513397, message_id: 1679
+2025-09-28 10:23:46,243 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:46,374 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:46,783 - INFO - Received callback: ans_7205513397_6_D
+2025-09-28 10:23:47,269 - INFO - Sent question 7 to user 7205513397, message_id: 1681
+2025-09-28 10:23:47,271 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:47,390 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:47,675 - INFO - Received callback: ans_7205513397_7_D
+2025-09-28 10:23:48,532 - INFO - Sent question 8 to user 7205513397, message_id: 1683
+2025-09-28 10:23:48,533 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:48,693 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:48,981 - INFO - Received callback: ans_7205513397_8_D
+2025-09-28 10:23:49,441 - INFO - Sent question 9 to user 7205513397, message_id: 1685
+2025-09-28 10:23:49,442 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:49,589 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:50,177 - INFO - Received callback: ans_7205513397_9_D
+2025-09-28 10:23:50,580 - INFO - Sent question 10 to user 7205513397, message_id: 1687
+2025-09-28 10:23:50,581 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:50,703 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:51,107 - INFO - Received callback: ans_7205513397_10_D
+2025-09-28 10:23:51,613 - INFO - Sent question 11 to user 7205513397, message_id: 1689
+2025-09-28 10:23:51,614 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:51,747 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:52,128 - INFO - Received callback: ans_7205513397_11_D
+2025-09-28 10:23:52,547 - INFO - Sent question 12 to user 7205513397, message_id: 1691
+2025-09-28 10:23:52,547 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:52,679 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:53,130 - INFO - Received callback: ans_7205513397_12_D
+2025-09-28 10:23:53,935 - INFO - Sent question 13 to user 7205513397, message_id: 1693
+2025-09-28 10:23:53,935 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:54,081 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:55,268 - INFO - Received callback: ans_7205513397_13_D
+2025-09-28 10:23:55,789 - INFO - Sent question 14 to user 7205513397, message_id: 1695
+2025-09-28 10:23:55,790 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:55,951 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:56,413 - INFO - Received callback: ans_7205513397_14_D
+2025-09-28 10:23:56,844 - INFO - Sent question 15 to user 7205513397, message_id: 1697
+2025-09-28 10:23:56,845 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:56,973 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:57,578 - INFO - Received callback: ans_7205513397_15_D
+2025-09-28 10:23:58,050 - INFO - Sent question 16 to user 7205513397, message_id: 1699
+2025-09-28 10:23:58,051 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:58,184 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:58,571 - INFO - Received callback: ans_7205513397_16_D
+2025-09-28 10:23:59,000 - INFO - Sent question 17 to user 7205513397, message_id: 1701
+2025-09-28 10:23:59,001 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:59,134 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:23:59,619 - INFO - Received callback: ans_7205513397_17_D
+2025-09-28 10:24:00,094 - INFO - Sent question 18 to user 7205513397, message_id: 1703
+2025-09-28 10:24:00,095 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:00,224 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:00,771 - INFO - Received callback: ans_7205513397_18_D
+2025-09-28 10:24:01,256 - INFO - Sent question 19 to user 7205513397, message_id: 1705
+2025-09-28 10:24:01,257 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:01,387 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:01,969 - INFO - Received callback: ans_7205513397_19_D
+2025-09-28 10:24:02,532 - INFO - Sent question 20 to user 7205513397, message_id: 1707
+2025-09-28 10:24:02,533 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:02,739 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:03,199 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:03,240 - INFO - Received callback: ans_7205513397_20_D
+2025-09-28 10:24:03,784 - INFO - Sent question 21 to user 7205513397, message_id: 1709
+2025-09-28 10:24:03,784 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:03,920 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:04,803 - INFO - Received callback: ans_7205513397_21_D
+2025-09-28 10:24:05,408 - INFO - Sent question 22 to user 7205513397, message_id: 1711
+2025-09-28 10:24:05,408 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:05,627 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:08,059 - INFO - Received callback: ans_7205513397_22_D
+2025-09-28 10:24:08,843 - INFO - Sent question 23 to user 7205513397, message_id: 1713
+2025-09-28 10:24:08,844 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:09,067 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:10,312 - INFO - Received callback: ans_7205513397_23_D
+2025-09-28 10:24:10,750 - INFO - Sent question 24 to user 7205513397, message_id: 1715
+2025-09-28 10:24:10,751 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:10,884 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:11,573 - INFO - Received callback: ans_7205513397_24_D
+2025-09-28 10:24:11,996 - INFO - Sent question 25 to user 7205513397, message_id: 1717
+2025-09-28 10:24:11,997 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:12,121 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:13,174 - INFO - Received callback: ans_7205513397_25_D
+2025-09-28 10:24:13,695 - INFO - Sent question 26 to user 7205513397, message_id: 1719
+2025-09-28 10:24:13,696 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:13,830 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:16,662 - INFO - Received callback: ans_7205513397_26_D
+2025-09-28 10:24:17,121 - INFO - Sent question 27 to user 7205513397, message_id: 1721
+2025-09-28 10:24:17,122 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:17,258 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:18,169 - INFO - Received callback: ans_7205513397_27_D
+2025-09-28 10:24:18,691 - INFO - Sent question 28 to user 7205513397, message_id: 1723
+2025-09-28 10:24:18,692 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:18,841 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:21,061 - INFO - Received callback: ans_7205513397_28_D
+2025-09-28 10:24:21,521 - INFO - Sent question 29 to user 7205513397, message_id: 1725
+2025-09-28 10:24:21,522 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:21,654 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:23,056 - INFO - Received callback: ans_7205513397_29_D
+2025-09-28 10:24:23,508 - INFO - Sent question 30 to user 7205513397, message_id: 1727
+2025-09-28 10:24:23,509 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:23,645 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:24,260 - INFO - Received callback: ans_7205513397_30_D
+2025-09-28 10:24:24,680 - INFO - Sent question 31 to user 7205513397, message_id: 1729
+2025-09-28 10:24:24,681 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:24,809 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:25,301 - INFO - Received callback: ans_7205513397_31_D
+2025-09-28 10:24:26,053 - INFO - Sent question 32 to user 7205513397, message_id: 1731
+2025-09-28 10:24:26,054 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:26,177 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:27,127 - INFO - Received callback: ans_7205513397_32_B
+2025-09-28 10:24:27,669 - INFO - Sent question 33 to user 7205513397, message_id: 1733
+2025-09-28 10:24:27,670 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:27,797 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-28 10:24:28,397 - INFO - Received callback: ans_7205513397_33_B
+2025-09-28 10:24:28,672 - INFO - Backup created: backups\test_results.xlsx.backup_20250928_102428
+2025-09-28 10:24:28,703 - INFO - Results saved for user 7205513397
+2025-09-28 10:24:28,831 - ERROR - Error removing inline keyboard for message 1667 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:28,954 - ERROR - Error removing inline keyboard for message 1669 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,090 - ERROR - Error removing inline keyboard for message 1671 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,198 - ERROR - Error removing inline keyboard for message 1673 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,340 - ERROR - Error removing inline keyboard for message 1675 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,468 - ERROR - Error removing inline keyboard for message 1677 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,660 - ERROR - Error removing inline keyboard for message 1679 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,783 - ERROR - Error removing inline keyboard for message 1681 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:29,912 - ERROR - Error removing inline keyboard for message 1683 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,040 - ERROR - Error removing inline keyboard for message 1685 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,166 - ERROR - Error removing inline keyboard for message 1687 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,289 - ERROR - Error removing inline keyboard for message 1689 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,414 - ERROR - Error removing inline keyboard for message 1691 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,535 - ERROR - Error removing inline keyboard for message 1693 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,668 - ERROR - Error removing inline keyboard for message 1695 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,792 - ERROR - Error removing inline keyboard for message 1697 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:30,918 - ERROR - Error removing inline keyboard for message 1699 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,043 - ERROR - Error removing inline keyboard for message 1701 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,167 - ERROR - Error removing inline keyboard for message 1703 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,277 - ERROR - Error removing inline keyboard for message 1705 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,405 - ERROR - Error removing inline keyboard for message 1707 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,580 - ERROR - Error removing inline keyboard for message 1709 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,793 - ERROR - Error removing inline keyboard for message 1711 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:31,937 - ERROR - Error removing inline keyboard for message 1713 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,087 - ERROR - Error removing inline keyboard for message 1715 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,209 - ERROR - Error removing inline keyboard for message 1717 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,336 - ERROR - Error removing inline keyboard for message 1719 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,450 - ERROR - Error removing inline keyboard for message 1721 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,589 - ERROR - Error removing inline keyboard for message 1723 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,713 - ERROR - Error removing inline keyboard for message 1725 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,843 - ERROR - Error removing inline keyboard for message 1727 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:32,966 - ERROR - Error removing inline keyboard for message 1729 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:33,094 - ERROR - Error removing inline keyboard for message 1731 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:33,218 - ERROR - Error removing inline keyboard for message 1733 of user 7205513397: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-28 10:24:33,355 - INFO - Test ended for user 7205513397, score: 24
+2025-09-28 10:24:33,357 - INFO - State saved successfully
+2025-09-28 10:24:33,481 - INFO - State saved successfully
+2025-09-28 10:24:45,506 - INFO - Sent page 1 of user data to admin 7205513397
+2025-09-28 10:24:55,255 - INFO - State saved successfully
+2025-09-28 10:24:58,207 - INFO - State saved successfully
+2025-09-28 10:25:01,988 - INFO - Asked password for restart_test from user 7205513397
+2025-09-28 10:25:01,990 - INFO - State saved successfully
+2025-09-28 10:25:03,208 - INFO - State saved successfully
+2025-09-28 10:26:03,246 - INFO - State saved successfully
+2025-09-28 10:27:03,260 - INFO - State saved successfully
+2025-09-28 10:28:03,261 - INFO - State saved successfully
