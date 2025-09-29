@@ -13,7 +13,7 @@ import math
 import os
 
 logging.basicConfig(filename='bot.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-bot = AsyncTeleBot('8263239418:AAF--j6XK5lrsyLoyyJWB6bHq4dY9Ju1sEU')
+bot = AsyncTeleBot('8358451222:AAEJiRqP_IfW6hBrNrh25A_Fq35WqfzRMfo')
 
 user_lang = {}
 user_mark = []
@@ -24,7 +24,7 @@ RESULTS_FILE = 'test_results.xlsx'
 STATE_FILE = 'state.json'
 BACKUP_DIR = 'backups'
 ADMIN_ID = 7205513397
-ADMIN3_ID = 1354151664
+ADMIN3_ID = 1354151664  
 ADMIN4_ID = 5420002634
 ADMINS = {ADMIN_ID, ADMIN3_ID, ADMIN4_ID}
 
@@ -38,6 +38,7 @@ WATCHDOG_TIMEOUT_SECONDS = 600
 QUESTION_TTL_SECONDS = 24 * 3600  
 TEST_TOTAL_LIMIT_SECONDS = 3600  
 
+pending_greet = {}  # user_id -> first_name барои саломи яккарата
 
 # ---------------------------------Фармонҳои бот-------------------------------------
 async def set_commands():
@@ -376,7 +377,34 @@ async def check_password(message):
             all_message_ids[user_id] = []
         all_message_ids[user_id].append(sent_msg.message_id)
 # -----------------------------------------------------------------------------------
+async def after_language_start(user_id: int, first_name: str = ""):
+    lang = user_lang.get(user_id, 'ru')
+    title = {
+        'tj': f"Хуш омадед, {first_name}!",
+        'ru': f"Добро пожаловать, {first_name}!"
+    }.get(lang, 'ru')
 
+    kb = InlineKeyboardMarkup()
+    kb.add(
+        InlineKeyboardButton("📝 Test / Тест", callback_data="go_test"),
+        InlineKeyboardButton("〽️ Mark / Оценка", callback_data="go_mark"),
+        InlineKeyboardButton("❓ Help / Ёрӣ", callback_data="go_help")
+    )
+    msg = await bot.send_message(user_id, title, reply_markup=kb)
+    _track_for_deletion(user_id, msg.message_id)
+
+@bot.callback_query_handler(func=lambda c: c.data in {"go_test","go_mark","go_help"})
+async def main_menu_router(call):
+    try:
+        if c := call.data == "go_test":
+            await start_test(call.message)
+        elif call.data == "go_mark":
+            await return_mark(call.message)
+        else:
+            await help_command(call.message)
+        await bot.answer_callback_query(call.id)
+    except Exception as e:
+        logging.error(f"main_menu_router error: {e}")
 
 
 # ---------------------------------Интихоби забон-------------------------------------
@@ -394,29 +422,42 @@ async def language_selection(user_id: int):
 async def set_language(message):
     try:
         user_id = message.chat.id
-        language_choice = message.text
-        if language_choice == "Русский 🇷🇺":
+        choice = message.text
+
+        if choice == "Русский 🇷🇺":
             user_lang[user_id] = 'ru'
-            sent = await bot.send_message(user_id, "Вы выбрали русский язык.", reply_markup=ReplyKeyboardRemove())
-        elif language_choice == "Тоҷикӣ 🇹🇯":
+            confirm = "Язык установлен: русский ✅"
+        elif choice == "Тоҷикӣ 🇹🇯":
             user_lang[user_id] = 'tj'
-            sent = await bot.send_message(user_id, "Шумо забони тоҷикӣ - ро интихоб кардед.", reply_markup=ReplyKeyboardRemove())
+            confirm = "Забон таъин шуд: тоҷикӣ ✅"
         else:
-            sent = await bot.send_message(
-                user_id,
-                "Инхел забон нест лутфан дубора кӯшиш кунед!\nТакого языка нет, пожалуйста, попробуйте еще раз!",
-                reply_markup=ReplyKeyboardRemove()
-            )
+            confirm = "Инхел забон нест / Такого языка нет."
+
+        sent = await bot.send_message(user_id, confirm, reply_markup=ReplyKeyboardRemove())
         _track_for_deletion(user_id, sent.message_id)
-        await send_pravial(message)
         save_state()
+
+        # баъд аз интихоби забон — бе /start такроран — идома медиҳем
+        first_name = pending_greet.pop(user_id, message.from_user.first_name or "")
+        await after_language_start(user_id, first_name)
+
     except Exception as e:
         logging.error(f"Error in set_language: {e}")
         await bot.send_message(user_id, "Хато рух дод. Лутфан дубора кӯшиш кунед.")
 
+
 @bot.message_handler(commands=['language'])
 async def lang(message):
-    await language_selection(message.chat.id)
+    try:
+        uid = message.chat.id
+        pending_greet[uid] = message.from_user.first_name or ""
+        markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+        markup.add("Тоҷикӣ 🇹🇯", "Русский 🇷🇺")
+        msg = await bot.send_message(uid, "Забонро интихоб кунед / Выберите язык:", reply_markup=markup)
+        _track_for_deletion(uid, msg.message_id)
+    except Exception as e:
+        logging.error(f"Error in /language: {e}")
+
 # -----------------------------------------------------------------------------------
 
 
@@ -425,29 +466,31 @@ async def lang(message):
 async def start(message):
     try:
         user_id = message.chat.id
-        first_name = message.from_user.first_name
-        if user_id not in user_lang:
-            await language_selection(user_id)
-        else:
-            msg = {
-                'tj': (
-                    f"Салом {first_name}, хуш омадед ба боти SoftClub test\n"
-                    "ин бот барои муян кардани сатҳи дониши шумо мебошад! "
-                    "Барои оғози тест фармони /test ро пахш кунед!"
-                ),
-                'ru': (
-                    f"Здравствуйте {first_name}, добро пожаловать в бот SoftClub test!\n"
-                    "Этот бот предназначен для определения вашего уровня знаний. "
-                    "Для начала теста используйте команду /test!"
-                )
-            }.get(user_lang[user_id], 'ru')
-            sent = await bot.send_message(user_id, msg)
-            _track_for_deletion(user_id, sent.message_id)
+        first_name = message.from_user.first_name or ""
         await _maybe_cancel_if_testing(user_id, reason="start_command")
+
+        if user_id not in user_lang:
+            # як бор салом + дархости забон
+            pending_greet[user_id] = first_name
+            markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+            markup.add("Тоҷикӣ 🇹🇯", "Русский 🇷🇺")
+            text = (
+                f"Салом {first_name}!\n"
+                "Лутфан забони худро интихоб намоед: 🇹🇯 / 🇷🇺\n\n"
+                f"Здравствуйте {first_name}!\n"
+                "Пожалуйста, выберите ваш язык: 🇷🇺 / 🇹🇯"
+            )
+            msg = await bot.send_message(user_id, text, reply_markup=markup)
+            _track_for_deletion(user_id, msg.message_id)
+        else:
+            # забон аллакай интихоб шудааст — ба қисми асосӣ мегузарем
+            await after_language_start(user_id, first_name)
+
         save_state()
     except Exception as e:
         logging.error(f"Error in start: {e}")
         await bot.send_message(message.chat.id, "Хато рух дод. Лутфан дубора кӯшиш кунед.")
+
 
 async def send_pravial(message):
     try:
@@ -826,6 +869,48 @@ async def send_monthly_report():
 
 
 # ---------------------------------Командаи тест-------------------------------------
+@bot.message_handler(
+    content_types=['text','photo','audio','voice','video','document','sticker','video_note','animation','contact','location'],
+    func=lambda m: user_test_state.get(m.chat.id, {}).get('step') == 'testing'
+)
+async def block_chat_during_test(message):
+    try:
+        uid = message.chat.id
+        await delete_message_safe(uid, message.message_id)
+
+        st = user_test_state.get(uid, {})
+        if not st.get('warned_no_chat'):
+            lang = user_lang.get(uid, 'ru')
+            txt = {
+                'tj': "🛑 Дар вақти тест паём фиристода намешавад. Танҳо тугмаҳои ҷавобро истифода баред.",
+                'ru': "🛑 Во время теста сообщения отключены. Используйте только кнопки ответа."
+            }.get(lang, 'ru')
+            notice = await bot.send_message(uid, txt, reply_markup=ReplyKeyboardRemove())
+            _track_for_deletion(uid, notice.message_id)
+            st['warned_no_chat'] = True
+            save_state()
+    except Exception as e:
+        logging.error(f"block_chat_during_test error: {e}")
+
+@bot.message_handler(func=lambda m: user_test_state.get(m.chat.id, {}).get('step') == 'testing' and m.text and m.text.startswith('/'))
+async def block_commands_during_testing(message):
+    try:
+        uid = message.chat.id
+        await delete_message_safe(uid, message.message_id)
+        st = user_test_state.get(uid, {})
+        if not st.get('warned_no_chat'):
+            lang = user_lang.get(uid, 'ru')
+            txt = {
+                'tj': "🛑 Дар вақти тест фармонҳо кор намекунанд. Танҳо тугмаҳои ҷавобро пахш кунед.",
+                'ru': "🛑 Во время теста команды недоступны. Нажимайте только кнопки ответа."
+            }.get(lang, 'ru')
+            notice = await bot.send_message(uid, txt, reply_markup=ReplyKeyboardRemove())
+            _track_for_deletion(uid, notice.message_id)
+            st['warned_no_chat'] = True
+            save_state()
+    except Exception as e:
+        logging.error(f"block_commands_during_testing error: {e}")
+
 @bot.message_handler(commands=['test'])
 async def start_test(message):
     try:

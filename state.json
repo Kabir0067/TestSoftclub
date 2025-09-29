@@ -1,0 +1,20 @@
+{
+  "user_lang": {
+    "7205513397": "tj",
+    "7205513397": "ru"
+  },
+  "user_test_state": {
+    "7205513397": {
+      "step": "ask_full_name",
+      "username": "pythonjune_bot",
+      "first_name": "Save As Bot — скачать"
+    },
+    "7205513397": {
+      "step": "testing",
+      "username": "pythonjune_bot",
+      "first_name": "df",
+      "last_name": "df",
+      "birth_year": 2005,
+      "current_question": 1,
+      "score": 2.9411764705882355,
+      "start_time": 

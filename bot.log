@@ -443,3 +443,70 @@
 2025-09-28 10:26:03,246 - INFO - State saved successfully
 2025-09-28 10:27:03,260 - INFO - State saved successfully
 2025-09-28 10:28:03,261 - INFO - State saved successfully
+2025-09-29 15:09:05,215 - ERROR - Error loading state: Expecting value: line 1 column 1 (char 0)
+2025-09-29 15:09:05,215 - INFO - Files initialized successfully
+2025-09-29 15:09:05,628 - INFO - Bot commands set successfully
+2025-09-29 15:09:05,630 - INFO - State saved successfully
+2025-09-29 15:09:08,783 - INFO - State saved successfully
+2025-09-29 15:09:10,491 - INFO - State saved successfully
+2025-09-29 15:09:10,491 - INFO - State saved successfully
+2025-09-29 15:09:12,101 - INFO - State saved successfully
+2025-09-29 15:09:13,159 - INFO - State saved successfully
+2025-09-29 15:09:15,878 - INFO - State saved successfully
+2025-09-29 15:09:18,644 - INFO - Sent question 0 to user 7205513397, message_id: 462
+2025-09-29 15:09:18,645 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:09:18,645 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:09:22,699 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:09:28,178 - INFO - Received callback: ans_7205513397_0_B
+2025-09-29 15:09:28,679 - INFO - Sent question 1 to user 7205513397, message_id: 466
+2025-09-29 15:09:28,680 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:09:28,809 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:10:05,642 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:11:05,659 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:12:05,681 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:13:05,691 - ERROR - Error saving state: Object of type datetime is not JSON serializable
+2025-09-29 15:13:56,946 - ERROR - Infinity polling: polling exited
+2025-09-29 15:13:56,946 - ERROR - Break infinity polling
+2025-09-29 15:14:02,433 - ERROR - Error loading state: Expecting value: line 14 column 21 (char 311)
+2025-09-29 15:14:02,433 - INFO - Files initialized successfully
+2025-09-29 15:14:02,829 - INFO - Bot commands set successfully
+2025-09-29 15:14:02,831 - INFO - State saved successfully
+2025-09-29 15:14:30,728 - INFO - Received callback: ans_7205513397_1_B
+2025-09-29 15:14:30,728 - ERROR - User 7205513397 not in user_test_state
+2025-09-29 15:14:33,762 - INFO - Received callback: ans_7205513397_1_C
+2025-09-29 15:14:33,763 - ERROR - User 7205513397 not in user_test_state
+2025-09-29 15:14:41,192 - INFO - State saved successfully
+2025-09-29 15:14:43,221 - INFO - State saved successfully
+2025-09-29 15:14:56,338 - INFO - State saved successfully
+2025-09-29 15:15:02,843 - INFO - State saved successfully
+2025-09-29 15:15:09,566 - ERROR - Infinity polling: polling exited
+2025-09-29 15:15:09,566 - ERROR - Break infinity polling
+2025-09-29 15:15:10,162 - ERROR - Infinity polling: polling exited
+2025-09-29 15:15:10,162 - ERROR - Break infinity polling
+2025-09-29 15:15:13,655 - ERROR - Error loading state: Expecting value: line 1 column 1 (char 0)
+2025-09-29 15:15:13,655 - INFO - Files initialized successfully
+2025-09-29 15:15:14,036 - INFO - Bot commands set successfully
+2025-09-29 15:15:14,036 - INFO - State saved successfully
+2025-09-29 15:15:17,624 - INFO - State saved successfully
+2025-09-29 15:15:20,034 - INFO - State saved successfully
+2025-09-29 15:15:29,799 - INFO - State saved successfully
+2025-09-29 15:15:32,550 - INFO - State saved successfully
+2025-09-29 15:15:36,314 - INFO - State saved successfully
+2025-09-29 15:16:37,498 - INFO - Files initialized successfully
+2025-09-29 15:16:37,937 - INFO - Bot commands set successfully
+2025-09-29 15:16:37,938 - INFO - State saved successfully
+2025-09-29 15:16:42,398 - INFO - State saved successfully
+2025-09-29 15:16:42,399 - INFO - State saved successfully
+2025-09-29 15:16:59,592 - INFO - State saved successfully
+2025-09-29 15:17:37,947 - INFO - State saved successfully
+2025-09-29 15:18:07,625 - INFO - State saved successfully
+2025-09-29 15:18:37,953 - INFO - State saved successfully
+2025-09-29 15:19:37,958 - INFO - State saved successfully
+2025-09-29 15:20:37,969 - INFO - State saved successfully
+2025-09-29 15:21:38,002 - INFO - State saved successfully
+2025-09-29 15:22:38,006 - INFO - State saved successfully
+2025-09-29 15:23:38,017 - INFO - State saved successfully
+2025-09-29 15:24:17,382 - ERROR - Infinity polling: polling exited
+2025-09-29 15:24:17,382 - ERROR - Break infinity polling
+2025-09-29 15:24:18,029 - ERROR - Infinity polling: polling exited
+2025-09-29 15:24:18,033 - ERROR - Break infinity polling
